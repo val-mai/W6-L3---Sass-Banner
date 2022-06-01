@@ -1,0 +1,21 @@
+.hero {
+    display: flex;
+    width: 70%;
+    margin: 2rem auto;
+    div {
+        width: 50%;
+        h1{
+            font-size: $big;
+            color: $dark;
+        }
+        p {
+            font-size: $small;
+            padding-right: 2rem;
+            text-align: justify;
+            margin-bottom: 2rem;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}

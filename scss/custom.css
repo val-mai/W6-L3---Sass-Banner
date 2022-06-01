@@ -1,0 +1,74 @@
+* {
+  font-family: Helvetica, sans-serif;
+}
+
+nav {
+  background-color: #222;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+nav .container {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .container img {
+  width: 70px;
+}
+
+nav .container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav .container ul li {
+  font-size: 1.1rem;
+  padding-left: 1rem;
+  color: #f18426;
+  display: inline-block;
+}
+
+nav .container ul li:hover {
+  color: #fd1022;
+  cursor: pointer;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 2rem auto;
+}
+
+.hero div {
+  width: 50%;
+}
+
+.hero div h1 {
+  font-size: 2rem;
+  color: #222;
+}
+
+.hero div p {
+  font-size: 0.8rem;
+  padding-right: 2rem;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.hero div img {
+  width: 100%;
+}
+/*# sourceMappingURL=custom.css.map */
