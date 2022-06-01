@@ -1,3 +1,24 @@
+button {
+  padding: 0.8rem 1rem;
+  margin: 0.7rem;
+  border: none;
+  border-radius: 6px;
+  color: #eee;
+  font-size: 1.1rem;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #f18426;
+}
+
+.btn-secondary {
+  background-color: #fd1022;
+}
+
 * {
   font-family: Helvetica, sans-serif;
 }

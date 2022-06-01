@@ -1,0 +1,19 @@
+button {
+    padding: 0.8rem 1rem;
+    margin: 0.7rem;
+    border: none;
+    border-radius: 6px;
+    color: $light;
+    font-size: $normal;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.btn-primary {
+    background-color: $primary;
+}
+
+.btn-secondary {
+    background-color: $secondary;
+}
